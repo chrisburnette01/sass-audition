@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="dist/audition.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -19,14 +20,40 @@
 
     <div class="row">
       <div class="col">
-        <section>
-          <div>
-            <p>Great! Your registry is published and ready to be shared.</p>
-            <a href="/">Share</a>
-            <a href="/">Preview</a>
-            <a href="/">Edit</a>
+
+        <div class="card">
+          <div class="card-body">
+            <div class="d-xl-flex align-items-xl-center">
+              <div class="col-xl-auto d-block d-xl-none text-center">
+
+                <h5 class="info">
+
+                  <span class="boldest">Great ! </span>
+                  You're registry is published and ready to be shared.
+                </h5>
+
+
+              </div>
+              <div class="col-lg-auto d-none d-xl-block">
+                <h5 class="info d-xl-flex align-items-xl-center">
+                  <span class="warn d-inline-block text-center mr-3">!</span>
+                  <span class="boldest">You're almost there ! </span>
+                  <a href="#" class=" text-underline px-2"><u> Add payment settings</u></a> and you're ready to
+                  share.
+                </h5>
+              </div>
+              <div class="col">
+                <div class="d-sm-flex justify-content-sm-center">
+                  <button class="btn btn-primary   d-none d-xl-inline-block">Add payment</button>
+                  <button class="btn btn-primary  d-xl-none">Share</button>
+                  <button class="btn btn-outline-primary  ">Preview</button>
+                  <button class="btn btn-outline-primary ">Edit</button>
+                </div>
+              </div>
+            </div>
           </div>
-        </section>
+
+        </div>
       </div>
     </div>
 

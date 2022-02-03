@@ -9123,3 +9123,117 @@ a.text-dark:focus {
   }
 }
 
+html {
+  font-size: 13px;
+}
+
+body {
+  background: #fafbfd;
+  font-family: "Mulish", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #303741;
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: #fff;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+@media (min-width: 576px) and (max-width: 1199.98px) {
+  .card-body {
+    padding: 35px 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-body {
+    padding: 40px 15px;
+  }
+}
+
+.warn {
+  background: #fd9e6b;
+  min-width: 38px;
+  min-height: 38px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 800;
+  line-height: 38px;
+  font-size: 24px;
+}
+
+h5.info {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  h5.info {
+    margin: 0;
+  }
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.boldest {
+  font-weight: 900;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  font-weight: 700;
+  padding: 0.85rem 2em;
+  border-width: 2px;
+}
+
+.btn:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background: #5d9efc;
+  border-color: transparent;
+}
+
+.btn-outline-primary {
+  border-color: #5d9efc;
+  color: #5d9efc;
+}
+
+.btn-outline-primary:hover {
+  background: #5d9efc;
+  border-color: transparent;
+}
+
+@media (min-width: 576px) {
+  .btn {
+    display: inline-block;
+    max-width: 155px;
+  }
+
+  .btn:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    flex: 1;
+  }
+}
+
